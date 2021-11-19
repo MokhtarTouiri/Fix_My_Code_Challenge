@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" square file """
+""" Square file """
 
 
 class Square():
@@ -27,8 +27,8 @@ class Square():
 
 
 if __name__ == "__main__":
-    """square main"""
-    s = square(width=12, height=9)
+    """ square main """
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.permiter_of_my_square())

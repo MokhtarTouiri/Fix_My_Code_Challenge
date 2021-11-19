@@ -2,7 +2,7 @@
 """ square file """
 
 
-class square():
+class Square():
     """ square class """
     width = 0
     height = 0

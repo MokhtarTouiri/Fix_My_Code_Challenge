@@ -25,6 +25,7 @@ class square():
         """ print """
         return "{}/{}".format(self.width, self.height)
 
+
 if __name__ == "__main__":
     """square main"""
     s = square(width=12, height=9)
